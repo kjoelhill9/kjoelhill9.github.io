@@ -1,1 +1,26 @@
+VERSION = "2.0.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+HORIZON_URL = "https://horizon.stellar.org"
+ACCOUNTS = ["GBCQAHQTWNHVHTP4N3SHV2WEUU62TEFTM2L4FMDBYCR2G33WE42COBPS", "GAGSEFCUV3LXZCOYGJ2VUPOABPLNBX3THTXG32X3CDJILEQQ5RNWBYC6"]
+EMAIL = "contact@kevkoin.io"
+ORG_URL = "https://kjoelhill9.github.io"
 
+[DOCUMENTATION]
+ORG_NAME = "Kevin Foundation"
+ORG_URL = "https://kjoelhill9.github.io"
+ORG_EMAIL = "contact@kevkoin.io"
+ORG_DESCRIPTION = "Kevin is a community-driven Stellar token."
+
+[[PRINCIPALS]]
+name = "Kevin Hill"
+email = "contact@kevkoin.io"
+
+[[CURRENCIES]]
+code = "KEVKOIN"
+issuer = "GBCQAHQTWNHVHTP4N3SHV2WEUU62TEFTM2L4FMDBYCR2G33WE42COBPS"
+display_decimals = 7
+name = "KevKoin"
+desc = "Kevin is a community-driven Stellar token."
+conditions = "No warranties. KevKoin is a community token on the Stellar network."
+fixed_number = 1000000000
+is_asset_anchored = false
